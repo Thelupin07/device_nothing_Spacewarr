@@ -153,7 +153,6 @@ PRODUCT_PACKAGES += \
     libvisualizer \
     libvolumelistener \
     sound_trigger.primary.lahaina \
-    libspatialaudio \
     libaudioroute.vendor
 
 AUDIO_HAL_DIR := hardware/qcom-caf/sm8350/audio
@@ -285,8 +284,6 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss.measurement_corrections@1.1.vendor \
     android.hardware.gnss.visibility_control@1.0.vendor \
     android.hardware.gnss@2.1.vendor \
-    libloc_net_iface.vendor \
-    liblocdiagiface.vendor \
     libprocessgroup.vendor
 
 # Health
@@ -393,14 +390,6 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_PACKAGES += \
     libcodec2_hidl@1.0.vendor \
     libcodec2_vndk.vendor \
-    libmm-omxcore \
-    libOmxAacEnc \
-    libOmxAmrEnc \
-    libOmxCore \
-    libOmxEvrcEnc \
-    libOmxG711Enc \
-    libOmxQcelp13Enc \
-    libstagefrighthw \
     libstagefright_softomx_plugin.vendor
 
 # Perf
@@ -450,7 +439,6 @@ PRODUCT_PACKAGES += \
 
 # Quick Tap
 PRODUCT_PACKAGES += \
-    ColumbusService
 
 # RIL
 PRODUCT_PACKAGES += \
